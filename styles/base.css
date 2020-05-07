@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  outline: red 2px dotted;
+}
+
+body {
+  background-color: aqua;
+}
+
+@media (min-width: 960px) {
+  body {
+    background-color: pink;
+  }
+}
