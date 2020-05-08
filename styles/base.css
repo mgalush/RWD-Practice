@@ -7,7 +7,7 @@ body {
   background-color: aqua;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   body {
     background-color: pink;
   }
