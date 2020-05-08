@@ -43,10 +43,11 @@
 
 @media (min-width: 768px) {
   body {
-    width: 768px;
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 200px 250px 250px 250px 250px;
-    grid-template-rows: 100px 200px 250px 150px;
+    grid-template-columns: 20.84% 19.79% 19.79% 19.79% 19.79%;
+    grid-template-rows: 14.29% 28.57% 35.71% 21.43%;
     grid-template-areas:
       'a a a a a'
       'b c c d d'
