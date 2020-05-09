@@ -10,8 +10,16 @@ div {
   outline: solid 1px black;
 }
 
-@media (min-width: 768px) {
+/* tablet */
+@media (max-width: 768px) and (min-width: 480px) {
   body {
     background-color: pink;
+  }
+}
+
+/* phone */
+@media (max-width: 479px) {
+  body {
+    background-color: coral;
   }
 }
